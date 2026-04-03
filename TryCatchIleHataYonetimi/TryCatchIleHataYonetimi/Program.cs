@@ -2,7 +2,7 @@
 {
 	Console.WriteLine("Lütfen birinci sayıyı giriniz");
 	int sayi1 = Convert.ToInt32(Console.ReadLine());
-	Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+	Console.WriteLine("Lütfen ikinci sayıyı giriniz"); 
 	int sayi2 = Convert.ToInt32(Console.ReadLine());
 
 	int bolum = sayi1 / sayi2;
