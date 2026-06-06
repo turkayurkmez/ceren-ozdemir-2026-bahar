@@ -33,6 +33,7 @@
             comboBoxIskambil = new ComboBox();
             buttonKartRengi = new Button();
             buttonGunler = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // comboBoxRenkler
@@ -81,11 +82,21 @@
             buttonGunler.UseVisualStyleBackColor = true;
             buttonGunler.Click += buttonGunler_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(719, 156);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 5;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1093, 450);
+            Controls.Add(button1);
             Controls.Add(buttonGunler);
             Controls.Add(buttonKartRengi);
             Controls.Add(comboBoxIskambil);
@@ -103,5 +114,6 @@
         private ComboBox comboBoxIskambil;
         private Button buttonKartRengi;
         private Button buttonGunler;
+        private Button button1;
     }
 }

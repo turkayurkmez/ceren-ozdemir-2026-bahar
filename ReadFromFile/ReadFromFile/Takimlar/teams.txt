@@ -1,0 +1,4 @@
+﻿Beşiktaş,5
+Fenerbahçe,5
+Eskişehirspor,3
+Sivasspor,2
